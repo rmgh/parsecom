@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         let memo = PFObject(className: "Memo")
         memo["text"] = textField.text
         memo.saveInBackground()
+        textField.text = ""
     }
 
 }

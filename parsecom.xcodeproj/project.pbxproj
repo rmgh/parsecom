@@ -26,6 +26,7 @@
 		2108FD611B1BF9CD00C24D8F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2108FD601B1BF9CD00C24D8F /* SystemConfiguration.framework */; };
 		2108FD631B1BF9DC00C24D8F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2108FD621B1BF9DC00C24D8F /* libz.dylib */; };
 		2108FD651B1BF9EB00C24D8F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2108FD641B1BF9EA00C24D8F /* libsqlite3.dylib */; };
+		2108FD681B266FED00C24D8F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2108FD671B266FED00C24D8F /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		2108FD601B1BF9CD00C24D8F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2108FD621B1BF9DC00C24D8F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		2108FD641B1BF9EA00C24D8F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2108FD671B266FED00C24D8F /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListTableViewController.swift; path = ../ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,6 @@
 		2108FD1E1B1BF76900C24D8F = {
 			isa = PBXGroup;
 			children = (
-				2108FD641B1BF9EA00C24D8F /* libsqlite3.dylib */,
-				2108FD621B1BF9DC00C24D8F /* libz.dylib */,
 				2108FD661B1BFA1800C24D8F /* Frameworks */,
 				2108FD291B1BF76A00C24D8F /* parsecom */,
 				2108FD3F1B1BF76A00C24D8F /* parsecomTests */,
@@ -120,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				2108FD2C1B1BF76A00C24D8F /* AppDelegate.swift */,
+				2108FD671B266FED00C24D8F /* ListTableViewController.swift */,
 				2108FD2E1B1BF76A00C24D8F /* ViewController.swift */,
 				2108FD301B1BF76A00C24D8F /* Main.storyboard */,
 				2108FD331B1BF76A00C24D8F /* Images.xcassets */,
@@ -157,6 +158,8 @@
 		2108FD661B1BFA1800C24D8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2108FD641B1BF9EA00C24D8F /* libsqlite3.dylib */,
+				2108FD621B1BF9DC00C24D8F /* libz.dylib */,
 				2108FD4D1B1BF84B00C24D8F /* Parse.framework */,
 				2108FD4C1B1BF84B00C24D8F /* Bolts.framework */,
 				2108FD501B1BF93700C24D8F /* AudioToolbox.framework */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2108FD681B266FED00C24D8F /* ListTableViewController.swift in Sources */,
 				2108FD2F1B1BF76A00C24D8F /* ViewController.swift in Sources */,
 				2108FD2D1B1BF76A00C24D8F /* AppDelegate.swift in Sources */,
 			);
